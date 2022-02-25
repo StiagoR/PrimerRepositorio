@@ -1,2 +1,4 @@
 Esta es la historia de Santiago Tratando de aprender git 
-y buscando ser millonario
+y buscando ser millonario.
+
+Ahora vamos a hablar sobre todo lo que ha logrado desde que renuncio. 
