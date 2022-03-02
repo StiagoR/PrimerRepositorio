@@ -1,0 +1,198 @@
+<!--HTML-->
+<code> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instapet</title>
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color:beige;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+}
+.card{
+    min-width: 280px;
+    width: 400px;
+    height: 500px;
+    background-color: #554c4c;
+    border-radius: 40px;
+    box-shadow:0px 10px 10px 5px rgba(0,0,0,0.16);
+    margin:20px;
+    transition-duration: 200ms;
+}
+/* .card:hover{
+    outline: 2px solid #474747;
+    transition-duration: 100ms;
+} */
+.card .card-top{
+    height: 223px;
+    background: url("https://images.pexels.com/photos/1000602/pexels-photo-1000602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center/cover no-repeat;
+    border-radius: 40px 40px 0 0;
+    border: 4px solid white;
+}
+.card .card-top p{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 50px;
+    color: white;
+}
+.card .profile-data{
+    width: 100%;
+    height: 200px;
+    padding: 0 10px;
+}
+.card .profile-data--img{
+    display: flex;
+    width: 145px;
+    height: 145px;
+    margin: 0px auto;
+    margin-top: -75px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.card .profile-data h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.card .profile-data h2{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #C2C2C2;
+}
+.card .profile-data p{
+    width: 73px;
+    display: flex;
+    margin: 4px auto;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #C2C2C2;
+
+}
+.card .profile-data p span{
+    background: url("https://www.screencast.com/t/mCxIjGNURpk") center/cover no-repeat;
+    width: 20px;
+    height: 16px;
+    margin-right: 5px;
+    align-self: center;
+}
+.card .profile-links{
+    display: inline-flex;
+    width: 100%;
+    height: 67px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.card .profile-links a{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #C2C2C2;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card .profile-links a:hover{
+    color: white;
+}
+.card .social{
+    display: inline-flex;
+    width: 100%;
+    height: 67px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background: #2E2E2E;
+}
+.card .social p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.card .social span{
+    font-size: 1.4rem;
+    color: #C2C2C2;
+}
+.card .follow{
+    background-color: #060916;
+    width: 100%;
+    height: 63px;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    cursor: pointer;
+}
+.card .follow span{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto;
+    align-self: center;
+    transition-duration: 500ms;
+}
+.card .follow:hover{
+    background-color: #0A0F24;
+}
+.card .follow:hover span{
+    font-size: 2.2rem;
+    transition-duration: 200ms;
+}
+</style>
+<body>
+    <article class="card">
+        <div class="card-top">
+            <p>Bienvenido</p>
+        </div>
+        <div class="profile-data">
+            <img class="profile-data--img"src="C:\Users\Usuario\Pictures\milo.png" alt="">
+            <h1>MILO</h1>
+            <h2>Beagle</h2>
+            <p><span></span>Colombia</p>
+        </div>
+        <div class="profile-links">
+            <div class="projects">
+                <a href="#">Profile</a>
+            </div>
+            <div class="email">
+                <a href="#">Send Pollito</a>
+            </div>
+        </div>
+        <div class="social">
+            <div>
+                <p>592</p>
+                <span>Followers</span>
+            </div>
+            <div>
+                <p>139</p>
+                <span>Follows</span>
+            </div>
+        </div>
+        <a class="follow">
+            <span href="#">FOLLOW</span>
+        </a>
+    </article>
+</body>
+</html>
