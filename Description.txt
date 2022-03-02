@@ -1,1 +1,2 @@
 Este es un archivo para practicar mis commits  entre branches. 
+ahora estoy haciendo cambios desde github 
